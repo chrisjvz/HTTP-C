@@ -1,4 +1,7 @@
 build/
+# For my neovim config to find compilecommands.json
+.clangd
+.cache/
 
 # Prerequisites
 *.d
