@@ -3,7 +3,6 @@ build/
 .clangd
 .cache/
 
-
 # Prerequisites
 *.d
 
