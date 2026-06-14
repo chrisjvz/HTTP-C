@@ -18,18 +18,11 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Put STATIC libraries in build/lib
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
-# Put SHARED libraries in build/lib
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
 
 # --- ORCHESTRATION --- #
 add_subdirectory(src)
 
-# TODO: Add subdirectorys for all libs
-
-add_executable(${PROJECT_NAME} main.cpp)
-
-target_link_libraries(${PROJECT_NAME} PRIVATE server_core)
 # --- TESTING FRAMEWORK --- #
 #  Need to compile if() based on TEST_MODE 
 #	and setup googletest

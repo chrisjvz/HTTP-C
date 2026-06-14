@@ -12,3 +12,10 @@
 
 ### Automated Testing via actions?
 
+## Dependency tree? 
+main.cpp - top level includes core probably 
+
+core lib - engine of the server 
+    - includes threading maybe?
+    - utils maybe?
+
